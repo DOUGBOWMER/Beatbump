@@ -1,0 +1,4 @@
+const t={"X-Frame-Options":"SAMEORIGIN","Referrer-Policy":"no-referrer","Permissions-Policy":'accelerometer=(), autoplay="*", camera=(), document-domain=(), encrypted-media=(), fullscreen=(), gyroscope=(), interest-cohort=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), sync-xhr=(), usb=(), xr-spatial-tracking=(), geolocation=()',"X-Content-Type-Options":"nosniff","Strict-Transport-Security":"max-age=31536000; includeSubDomains; preload"},c=e=>/i(Phone|Pad|Pod)/i.test(e)?"iOS":/Android/i.test(e)?"Android":"Other",a=async({event:e,resolve:s})=>{const i=e.request.headers.get("User-Agent"),o=c(i);e.locals.iOS=o==="iOS",e.locals.Android=o==="Android";const r=await s(e);for(const n in t)r.headers.set(`${n}`,`${t[n]}`);return r};process.on("SIGINT",function(){process.exit();});process.on("SIGTERM",function(){process.exit();});
+
+export { a as handle };
+//# sourceMappingURL=hooks.server-c722afdc.js.map

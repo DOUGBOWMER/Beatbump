@@ -1,0 +1,1 @@
+import{r as e}from"./index-dc735eee.js";function o(){throw e(301,"/home")}const t=Object.freeze(Object.defineProperty({__proto__:null,load:o},Symbol.toStringTag,{value:"Module"}));export{t as _,o as l};

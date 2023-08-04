@@ -1,0 +1,1 @@
+const c=async({url:s,params:t,fetch:n})=>{const a=t.slug,e=s.searchParams.get("filter")||"",r=`/api/v1/search.json?q=${a}${e!==""?`&filter=${encodeURIComponent(e)}`:""}`,o=await(await n(r)).json();return Object.assign(o,{filter:e}),console.log(o),o},i=Object.freeze(Object.defineProperty({__proto__:null,load:c},Symbol.toStringTag,{value:"Module"}));export{i as _,c as l};

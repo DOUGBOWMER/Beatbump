@@ -1,0 +1,9 @@
+import { d } from './playlistPanelVideoRenderer-b4ee6357.js';
+import './index-02d8ed20.js';
+import './utils-c5816fb5.js';
+import './index3-a50d3d2e.js';
+
+const I=async({url:a})=>{const o=a.searchParams,n=o.get("playlistId")||"",i=o.get("videoIds")||"",r=i.length!==0?i.split(","):void 0,t=await fetch("https://music.youtube.com/youtubei/v1/music/get_queue?key=AIzaSyC9XL3ZjWddXya6X74dJoCTL-WEYFDNX30&prettyPrint=false",{method:"POST",body:JSON.stringify({context:{client:{clientName:"WEB_REMIX",clientVersion:"0.1",deviceMake:"google",platform:"DESKTOP",deviceModel:"bot",experimentIds:[],experimentsToken:"",osName:"Googlebot",osVersion:"2.1",locationInfo:{locationPermissionAuthorizationStatus:"LOCATION_PERMISSION_AUTHORIZATION_STATUS_UNSUPPORTED"},musicAppInfo:{musicActivityMasterSwitch:"MUSIC_ACTIVITY_MASTER_SWITCH_INDETERMINATE",musicLocationMasterSwitch:"MUSIC_LOCATION_MASTER_SWITCH_INDETERMINATE",pwaInstallabilityStatus:"PWA_INSTALLABILITY_STATUS_UNKNOWN"},utcOffsetMinutes:-new Date().getTimezoneOffset()},capabilities:{},request:{internalExperimentFlags:[{key:"force_music_enable_outertube_tastebuilder_browse",value:"true"},{key:"force_music_enable_outertube_playlist_detail_browse",value:"true"},{key:"force_music_enable_outertube_search_suggestions",value:"true"}],sessionIndex:{}},user:{lockedSafetyMode:!1},activePlayers:{}},videoIds:r,playlistId:`${n}`}),headers:{"Content-Type":"application/json; charset=utf-8",Origin:"https://music.youtube.com","User-Agent":"Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"}});if(!t.ok)return new Response(t.statusText,{status:t.status});const e=(await t.json())?.queueDatas||[];if(Array.isArray(e)){const l=e.length;let s=-1;for(;++s<l;)e[s]=d(e[s]?.content?.playlistPanelVideoRenderer);return new Response(JSON.stringify(e),{headers:{"content-type":"application/json"}})}};
+
+export { I as GET };
+//# sourceMappingURL=_server.ts-b48011d1.js.map

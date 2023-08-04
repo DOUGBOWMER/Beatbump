@@ -1,0 +1,6 @@
+import { i, p } from './utils.parsers-3568cb71.js';
+
+const l=i$1=>{const t=i$1.musicTwoRowItemRenderer,o=(t.thumbnailRenderer?.musicThumbnailRenderer?.thumbnail?.thumbnails||[]).map(n=>({...n,...i(n.url)})),e=t.navigationEndpoint?.watchEndpoint?.playlistId??t.thumbnailOverlay?.musicItemThumbnailOverlayRenderer?.content?.musicPlayButtonRenderer?.playNavigationEndpoint?.watchPlaylistEndpoint?.playlistId??t.overlay?.musicItemThumbnailOverlayRenderer?.content?.musicPlayButtonRenderer?.playNavigationEndpoint?.watchPlaylistEndpoint?.playlistId;return {title:t.title.runs[0].text,thumbnails:o,aspectRatio:t.aspectRatio,videoId:t.navigationEndpoint?.watchEndpoint?.videoId,playlistId:e,musicVideoType:t.navigationEndpoint?.watchEndpoint?.watchEndpointMusicSupportedConfigs?.watchEndpointMusicConfig?.musicVideoType,playerParams:t.navigationEndpoint?.watchEndpoint?.params,endpoint:t.navigationEndpoint?.browseEndpoint?{browseId:t.navigationEndpoint?.browseEndpoint?.browseId||void 0,pageType:t.navigationEndpoint?.browseEndpoint?.browseEndpointContextSupportedConfigs?.browseEndpointContextMusicConfig?.pageType||void 0}:void 0,subtitle:Array.isArray(t.subtitle?.runs)&&p(t.subtitle.runs)}};
+
+export { l };
+//# sourceMappingURL=musicTwoRowItemRenderer-3121913c.js.map

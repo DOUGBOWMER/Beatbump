@@ -1,0 +1,1 @@
+import{e as o}from"./index-dc735eee.js";const r=async({fetch:e})=>await e("/trending.json?q=browse").then(t=>{if(!t.ok)throw o(t.status,t.statusText);return t.json()}),a=Object.freeze(Object.defineProperty({__proto__:null,load:r},Symbol.toStringTag,{value:"Module"}));export{a as _,r as l};

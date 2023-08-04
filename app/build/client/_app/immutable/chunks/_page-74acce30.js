@@ -1,0 +1,1 @@
+import{e as r}from"./index-dc735eee.js";const s=async({fetch:o,url:t,parent:n})=>{const e=await o("/explore.json?browseId=FEmusic_moods_and_genres"),a=await e.json();if(!e.ok)throw r(500,e.statusText);return{response:a,path:t.pathname}},_=Object.freeze(Object.defineProperty({__proto__:null,load:s},Symbol.toStringTag,{value:"Module"}));export{_,s as l};
