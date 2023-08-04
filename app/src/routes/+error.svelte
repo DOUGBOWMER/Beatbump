@@ -31,7 +31,7 @@
 	>
 		<div class="logo">
 			<img
-				src="/logo.svg"
+				src="/logo.png"
 				width="128"
 				height="128"
 				alt="logo"

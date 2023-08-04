@@ -19,7 +19,7 @@ export async function exportDB() {
 		result.playlists = playlists.data ?? undefined;
 		const file = new Blob([JSON.stringify(result)], { type: "application/json" });
 
-		const fileName = `beatbump-db${generateId(9, "normal")}.json`;
+		const fileName = `alphatrack-db${generateId(9, "normal")}.json`;
 		const url = URL.createObjectURL(file);
 
 		const linkElm = document.createElement("a");

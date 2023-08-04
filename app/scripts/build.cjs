@@ -7,8 +7,8 @@ const path = require("path");
 const { CLI } = require("@snuffydev/fast-cli");
 const root = path.resolve(__dirname, "../");
 
-const beatbump_config_path = path.resolve(root, "beatbump.conf.json");
-const json_config = JSON.parse(fs.readFileSync(beatbump_config_path, { encoding: "utf8" }));
+const alphatrack_config_path = path.resolve(root, "alphatrack.conf.json");
+const json_config = JSON.parse(fs.readFileSync(alphatrack_config_path, { encoding: "utf8" }));
 const pkg = JSON.parse(fs.readFileSync(path.resolve(root, "package.json"), { encoding: "utf8" }));
 const json = json_config;
 
@@ -37,15 +37,15 @@ async function installAdapter(adapter, options) {
 	}
 }
 
-const cli = new CLI("Beatbump CLI");
+const cli = new CLI("AlphaTrack CLI");
 
 cli
 	.command("build", [""])
-	.describe("Builds Beatbump")
+	.describe("Builds AlphaTrack")
 	.action(() => {
 		try {
-			if (!beatbump_config_path) {
-				console.error(`No config file was found. Please create a file named 'beatbump.config.json' at ${rootPath}`);
+			if (!alphatrack_config_path) {
+				console.error(`No config file was found. Please create a file named 'alphatrack.config.json' at ${rootPath}`);
 				return;
 			}
 			const options = adapter.match(/node|vercel|netlify|cloudflare(-workers)?/g) ? json["platform"][adapter] : null;
@@ -67,7 +67,7 @@ cli
 			console.info(`Setting up svelte.config.js with user provided config...`);
 			const adapter_installed = installAdapter(adapter, options);
 
-			console.info(`Building Beatbump, please wait...`);
+			console.info(`Building AlphaTrack, please wait...`);
 
 			/// If installAdapter doesn't return a truthy value, then there was an error
 			/// so we abort

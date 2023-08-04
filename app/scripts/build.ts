@@ -5,25 +5,25 @@ import { readFileSync, writeFileSync } from "fs";
 import { createRequire as req } from "module";
 import * as path from "path";
 import * as process from "process";
-import type { Adapter, BeatbumpSchema, Platforms } from "./build.types";
+import type { Adapter, AlphaTrackSchema, Platforms } from "./build.types";
 import type { SvelteConfig, SvelteConfigJSON } from "./svelte.types";
 
 const require = req(import.meta.url);
 console.log(test);
 
-const beatbump_config_path = path.resolve("./beatbump.conf.json");
+const alphatrack_config_path = path.resolve("./alphatrack.conf.json");
 const default_config = path.resolve("./scripts/.internals/svelte.config.json");
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const svelte_config_js: SvelteConfigJSON = require(default_config);
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const json_config = require(beatbump_config_path);
+const json_config = require(alphatrack_config_path);
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const pkg = require(path.resolve("./package.json"));
 
 /**
- * @type {import('./build.types').BeatbumpSchema}
+ * @type {import('./build.types').AlphaTrackSchema}
  */
-const json: BeatbumpSchema = json_config as BeatbumpSchema;
+const json: AlphaTrackSchema = json_config as AlphaTrackSchema;
 
 const adapter: Adapter = (json["environment"]!["adapter"]! as Adapter) ?? "vercel";
 
@@ -70,11 +70,11 @@ async function main() {
 		return false;
 	});
 	try {
-		if (!beatbump_config_path) {
-			Logger.err(`No config file was found. Please create a file named 'beatbump.config.json' at ${rootPath}`);
+		if (!alphatrack_config_path) {
+			Logger.err(`No config file was found. Please create a file named 'alphatrack.config.json' at ${rootPath}`);
 			return;
 		}
-		Logger.info(`---Beatbump-------------------\nConfig path: ${beatbump_config_path}\n`);
+		Logger.info(`---AlphaTrack-------------------\nConfig path: ${alphatrack_config_path}\n`);
 
 		const options = adapter.match(/node|vercel|netlify/g) ? json["platform"][adapter] : null;
 
@@ -95,7 +95,7 @@ async function main() {
 		Logger.info(`Setting up svelte.config.js with user provided config...`);
 		const adapter_installed = installAdapter(adapter, options);
 
-		Logger.info(`Building Beatbump, please wait...`);
+		Logger.info(`Building AlphaTrack, please wait...`);
 
 		/// If installAdapter doesn't return a truthy value, then there was an error
 		/// so we abort

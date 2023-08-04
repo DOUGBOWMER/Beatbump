@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema",
-	"$id": "beatbump",
+	"$id": "alphatrack",
 
 	"type": "object",
 	"properties": {

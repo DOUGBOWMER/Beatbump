@@ -1,10 +1,10 @@
 <img align="right" src=".repo/images/logo-header.png" width="128px" height="128px" />
 
-# Beatbump
+# AlphaTrack
 
 A privacy-respecting alternative frontend for YouTube Music. Built with SvelteKit, official instance hosted with Cloudflare Workers.
 
-> NOTE: Beatbump is going through a major rewrite, so errors, bugs, and other problems may happen at random.
+> NOTE: AlphaTrack is going through a major rewrite, so errors, bugs, and other problems may happen at random.
 
 <div align="center">
 
@@ -21,11 +21,11 @@ A privacy-respecting alternative frontend for YouTube Music. Built with SvelteKi
   </a>
 </p>
 
-## Why Beatbump?
+## Why AlphaTrack?
 
-Beatbump is a fully-featured music listening experience, while helping to ease your privacy concerns associated with other platforms.
+AlphaTrack is a fully-featured music listening experience, while helping to ease your privacy concerns associated with other platforms.
 
-Some of Beatbump's features includes:
+Some of AlphaTrack's features includes:
 
 - Automix for continued listening
 - No ads
@@ -48,8 +48,8 @@ Some of Beatbump's features includes:
 
 | Directory                     | Description                                           |
 | ----------------------------- | ----------------------------------------------------- |
-| `app`                         | Beatbump web app                                      |
-| `packages/hls-proxy-rewriter` | Proxy server used for Beatbump's music playback (WIP) |
+| `app`                         | AlphaTrack web app                                      |
+| `packages/hls-proxy-rewriter` | Proxy server used for AlphaTrack's music playback (WIP) |
 
 
 ## Instances
@@ -58,7 +58,7 @@ Some of Beatbump's features includes:
 
 | Name                         | URL
 | ---                          | ---                                                                       |
-| Beatbump (Official) | https://beatbump.io                                                       |
+| AlphaTrack (Official) | <https://alphatrack.alphainfinity3.com>                                                       |
 | ~Vern (Clearnet)             | https://bb.vern.cc/                                                       |
 | ~Vern (Onion)                | http://bb.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion/ |
 | ~Vern (I2P)                  | http://vern6inmbjzqpecx4kpkq5sln3cqqrfuxfzh4au3tpxbsfbwbnta.b32.i2p/      |
@@ -66,14 +66,13 @@ Some of Beatbump's features includes:
 | Project Segfault (EU)    | https://bb.eu.projectsegfau.lt/																					 |
 | Project Segfault (US)        | https://bb.us.projectsegfau.lt/																					 |
 | Project Segfault (IN)        | https://bb.in.projectsegfau.lt/ |
-| Project Segfault (Tor)       | http://beatbump.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion/ |
-| Project Segfault (I2P)       | http://pjsfk4xvekoc7wx4pteevp3q2wy7jmzlem7rvl74nx33zkdr4vyq.b32.i2p/    |
-| btb.frail.duckdns.org (Clearnet) | https://btb.frail.duckdns.org/ |
-
+| Project Segfault (Tor)       | <http://alphatrack.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion/> |
+| Project Segfault (I2P)       | <http://pjsfk4xvekoc7wx4pteevp3q2wy7jmzlem7rvl74nx33zkdr4vyq.b32.i2p/>    |
+| btb.frail.duckdns.org (Clearnet) | <https://btb.frail.duckdns.org/> |
 
 ## Donations
 
-Want to support Beatbump financially to aid with future development/hosting?
+Want to support AlphaTrack financially to aid with future development/hosting?
 
 [Donate with PayPal!](https://www.paypal.com/donate/?hosted_button_id=E6YRHKS2H2KP2)
 
@@ -85,10 +84,11 @@ _(Other ways to donate coming soon!)_
 
 > Note: Still figuring out how to use Docker! Got a suggestion? Open an issue, thanks!
 
-[DockerHub](https://hub.docker.com/r/snuffydev/beatbump)
+[DockerHub](https://hub.docker.com/r/snuffydev/alphatrack)
 
 ### docker-compose (production)
-The quickest way to host a Beatbump instance is with [Docker](https://www.docker.com/get-started). Once you have it installed, you can run:
+
+The quickest way to host a AlphaTrack instance is with [Docker](https://www.docker.com/get-started). Once you have it installed, you can run:
 
 ```
 docker-compose up
@@ -98,14 +98,13 @@ The app will now be accessible from `https://localhost:443  /  http://localhost:
 
 ### docker-compose (development)
 
-
 (More details coming soon!)
 
 ## Documentation
 
-You can find (temporary, incomplete, and in-progress) API documentation here: https://beatbump-docs.vercel.app/
+You can find (temporary, incomplete, and in-progress) API documentation here: <https://alphatrack-docs.vercel.app/>
 
-> It's recommended (and appreciated) to host your own instance of Beatbump for public projects that want to use the data -- especially if you anticipate you will be making a large amount of requests. Thanks!
+> It's recommended (and appreciated) to host your own instance of AlphaTrack for public projects that want to use the data -- especially if you anticipate you will be making a large amount of requests. Thanks!
 
 ## Project Inspirations
 

@@ -6,7 +6,7 @@
 			"script": "app:dev",
 			"problemMatcher": [],
 			"label": "npm: app:dev",
-			"detail": "npm run dev -w beatbump/app"
+			"detail": "npm run dev -w alphatrack/app"
 		}
 	]
 }

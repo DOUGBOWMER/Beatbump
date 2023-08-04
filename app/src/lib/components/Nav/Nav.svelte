@@ -58,9 +58,9 @@
 					style="margin-left:1em;"
 					width="32"
 					height="32"
-					src="/logo.svg"
+					src="/logo.png"
 					alt="logo"
-					title="Beatbump Home"
+					title="AlphaTrack Home"
 				/>
 			</a>
 		{:else}
@@ -75,9 +75,9 @@
 					}}
 					width="32"
 					height="32"
-					src="/logo.svg"
+					src="/logo.png"
 					alt="logo"
-					title="Beatbump Home"
+					title="AlphaTrack Home"
 				/>
 			</a>
 		{/if}

@@ -1,8 +1,8 @@
 {
 	"background_color": "#0E1117",
 	"theme_color": "#391e59",
-	"name": "Beatbump",
-	"short_name": "Beatbump",
+	"name": "AlphaTrack",
+	"short_name": "AlphaTrack",
 	"display": "standalone",
 	"description": "Unlock your music.",
 	"start_url": "/",

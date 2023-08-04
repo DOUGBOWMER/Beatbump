@@ -44,7 +44,7 @@ let list: UserSettings = {
 		"Prefer WebM Audio": false,
 		Stream: "HTTP",
 	},
-	appinfo: { Donate: ENV_DONATION_URL, GitHub: "https://github.com/snuffyDev/Beatbump" },
+	appinfo: { Donate: ENV_DONATION_URL, GitHub: "https://github.com/snuffyDev/AlphaTrack" },
 	network: { "HLS Stream Proxy": "https://yt-hls-rewriter.onrender.com/" },
 	search: { Preserve: "Category" },
 };

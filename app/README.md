@@ -1,10 +1,10 @@
 <img align="right" src="../.repo/images/logo-header.png" width="128px" height="128px" />
 
-# Beatbump
+# AlphaTrack
 
-Beatbump is an alternative frontend for YouTube Music created using Svelte/SvelteKit, and powered by Cloudflare Workers.
+AlphaTrack is an alternative frontend for YouTube Music created using Svelte/SvelteKit, and powered by Cloudflare Workers.
 
-**Live Site**: https://beatbump.ml/
+**Live Site**: <https://alphatrack.ml/>
 
 <p align="center">
 	  <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">
@@ -42,7 +42,7 @@ Peer-to-Peer connection between browsers.
 ### Extensions
 
 Privacy is something you shouldn't have to think about. Using the browser extension LibRedirect, you can automatically
-redirect YouTube Music links to Beatbump. For more information, please visit the
+redirect YouTube Music links to AlphaTrack. For more information, please visit the
 [LibRedirect Repo](https://github.com/libredirect/libredirect).
 
 ## Development
@@ -51,9 +51,9 @@ redirect YouTube Music links to Beatbump. For more information, please visit the
 
 (TODO)
 
-### Deploying Beatbump
+### Deploying AlphaTrack
 
-You can find the documentation [here](https://snuffydev.github.io/Beatbump/#/) for setup information.
+You can find the documentation [here](https://snuffydev.github.io/AlphaTrack/#/) for setup information.
 
 ### Project Inspirations
 

@@ -125,7 +125,7 @@
 					action: async () => {
 						if (!browser) return;
 						const shareData = {
-							title: `Join ${groupSession.client.displayName}'s Group Session on Beatbump!`,
+							title: `Join ${groupSession.client.displayName}'s Group Session on AlphaTrack!`,
 
 							url: `${$SITE_ORIGIN_URL}/session?token=${IsoBase64.toBase64(
 								JSON.stringify({

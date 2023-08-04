@@ -30,7 +30,7 @@
 					? async () => {
 							if (!browser) return;
 							const shareData = {
-								title: `Join ${groupSession.client.displayName}'s Beatbump Session`,
+								title: `Join ${groupSession.client.displayName}'s AlphaTrack Session`,
 
 								url: `${$SITE_ORIGIN_URL}/session?token=${IsoBase64.toBase64(
 									JSON.stringify({

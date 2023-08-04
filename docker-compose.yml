@@ -11,9 +11,9 @@ services:
       - "443:${PORT}"
     environment:
       PORT: 3000
-      VITE_DOMAIN: "beatbump.ml"
-      VITE_SITE_URL: "https://beatbump.ml"
-      VITE_DONATION_URL: "https://www.paypal.com/donate/?hosted_button_id=E6YRHKS2H2KP2"
+      VITE_DOMAIN: "alphatrack.alphainfinity3.com"
+      VITE_SITE_URL: "https://alphatrack.alphainfinity3.com"
+      VITE_DONATION_URL: "https:/alphatracks.alphainfinity3.com/donate"
   proxy:
     build:
       context: ./packages/proxy-server/deno

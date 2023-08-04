@@ -25,8 +25,8 @@
 </script>
 
 <Header
-	title={`${hostDisplayName}'s Beatbump Group Session`}
-	desc={`Join ${hostDisplayName}'s Group Session on Beatbump`}
+	title={`${hostDisplayName}'s AlphaTrack Group Session`}
+	desc={`Join ${hostDisplayName}'s Group Session on AlphaTrack`}
 	{url}
 />
 <main>

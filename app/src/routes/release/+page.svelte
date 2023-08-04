@@ -51,7 +51,7 @@
 
 <Header
 	title={releaseInfo.title}
-	desc={`${releaseInfo.title} by ${releaseInfo?.artist[0]?.name} on Beatbump`}
+	desc={`${releaseInfo.title} by ${releaseInfo?.artist[0]?.name} on AlphaTrack`}
 	url={path + `?id=${id}`}
 	image={thumbnail}
 />

@@ -1,5 +1,5 @@
 {
-	"name": "beatbump-app",
+	"name": "alphatrack-app",
 	"version": "2.2.0",
 	"scripts": {
 		"dev": "npm run sync && vite dev --host",

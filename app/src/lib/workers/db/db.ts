@@ -117,7 +117,7 @@ function generateId(size = 16, charset: "normal" | "alternative" = "normal"): st
 	return mod.generate(size, charset);
 }
 
-const db = new IDB("beatbump", 3);
+const db = new IDB("alphatrack", 3);
 
 export function updatePlaylist(entry: IDBPlaylistInternal): Promise<IDBMessage<IDBPlaylist>> {
 	let result: IDBMessage;

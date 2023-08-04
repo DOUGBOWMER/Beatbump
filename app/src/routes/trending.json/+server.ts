@@ -9,7 +9,7 @@ import type { IMusicResponsiveListItemRenderer, IMusicTwoRowItemRenderer } from 
 
 /**
  * @root "/"
- * @description Returns the Trending page for Beatbump.
+ * @description Returns the Trending page for AlphaTrack.
  * @endpoint trending.json
  * @method GET
  * @returns {{carouselItems: ICarousel[]}}

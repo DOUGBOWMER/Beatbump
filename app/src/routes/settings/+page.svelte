@@ -86,7 +86,7 @@
 		<div class="setting">
 			<label for="stream">
 				Stream
-				<i> (reload Beatbump after setting)</i>
+				<i> (reload AlphaTrack after setting)</i>
 			</label>
 			<div class="select">
 				<select

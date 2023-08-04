@@ -1,7 +1,8 @@
 export const manifest = {
 	appDir: "_app",
 	appPath: "_app",
-	assets: new Set(["android/android-launchericon-144-144.png","android/android-launchericon-192-192.png","android/android-launchericon-48-48.png","android/android-launchericon-512-512.png","android/android-launchericon-72-72.png","android/android-launchericon-96-96.png","apple-touch-icon-120x120.png","apple-touch-icon-152x152.png","apple-touch-icon-180x180.png","apple-touch-icon-60x60.png","apple-touch-icon-76x76.png","apple-touch-icon.png","assets/android-chrome-192x192.png","assets/android-chrome-256x256.png","assets/browserconfig.xml","assets/favicon-16x16.png","assets/favicon-32x32.png","assets/favicon.ico","assets/favicon.png","assets/mstile-150x150.png","assets/safari-pinned-tab.svg","favicon.ico","favicon.png","icons.svg","logo.png","logo.svg","manifest.json","mask.svg","maskable.svg","robots.txt","service-worker.js"]),
+	// assets: new Set(["android/android-launchericon-144-144.png","android/android-launchericon-192-192.png","android/android-launchericon-48-48.png","android/android-launchericon-512-512.png","android/android-launchericon-72-72.png","android/android-launchericon-96-96.png","apple-touch-icon-120x120.png","apple-touch-icon-152x152.png","apple-touch-icon-180x180.png","apple-touch-icon-60x60.png","apple-touch-icon-76x76.png","assets/android-chrome-192x192.png","assets/browserconfig.xml","assets/favicon-16x16.png","assets/favicon-32x32.png","assets/favicon.ico","assets/favicon.png","assets/mstile-150x150.png","favicon.ico","icons.svg","logo.png","manifest.json","robots.txt","service-worker.js"]),
+	assets: new Set(["android/android-launchericon-192-192.png","apple-touch-icon-120x120.png","apple-touch-icon-152x152.png","apple-touch-icon-180x180.png","apple-touch-icon-60x60.png","apple-touch-icon-76x76.png","assets/android-chrome-192x192.png","assets/browserconfig.xml","assets/favicon-16x16.png","assets/favicon-32x32.png","assets/favicon.ico","assets/favicon.png","assets/mstile-150x150.png","favicon.ico","icons.svg","logo.png","manifest.json","robots.txt","service-worker.js"]),
 	mimeTypes: {".png":"image/png",".xml":"application/xml",".ico":"image/vnd.microsoft.icon",".svg":"image/svg+xml",".json":"application/json",".txt":"text/plain"},
 	_: {
 		entry: {"file":"_app/immutable/start-01584729.js","imports":["_app/immutable/start-01584729.js","_app/immutable/chunks/index-4a84906d.js","_app/immutable/chunks/singletons-4b4b4944.js","_app/immutable/chunks/index-8fd0dbbf.js","_app/immutable/chunks/preload-helper-41c905a7.js","_app/immutable/chunks/control-f5b05b5f.js"],"stylesheets":[],"fonts":[]},
@@ -269,7 +270,7 @@ export const manifest = {
 			}
 		],
 		matchers: async () => {
-			
+
 			return {  };
 		}
 	}

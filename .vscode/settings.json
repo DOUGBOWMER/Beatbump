@@ -10,7 +10,7 @@
 		{
 			"url": "./.vscode/schema.json",
 			"fileMatch": [
-				"/app/beatbump.conf.json"
+				"/app/alphatrack.conf.json"
 			]
 		}
 	],
@@ -28,5 +28,15 @@
 		"editor.formatOnSaveMode": "file",
 		"editor.defaultFormatter": "svelte.svelte-vscode",
 	},
-	"typescript.tsdk": "./app/node_modules/typescript/lib"
+	"typescript.tsdk": "./app/node_modules/typescript/lib",
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/.ruby-lsp": true
+	},
+	"explorerExclude.backup": {}
 }

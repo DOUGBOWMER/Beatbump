@@ -27,5 +27,5 @@
 			{/if}
 		{/if}
 	{/each}
-	<title>{$currentTitle ? $currentTitle : $tagStore.title} - Beatbump</title>
+	<title>{$currentTitle ? $currentTitle : $tagStore.title} - AlphaTrack</title>
 </svelte:head>

@@ -23,11 +23,11 @@
 	/>
 	<meta
 		property="og:description"
-		content={`Listen to ${title} on Beatbump`}
+		content={`Listen to ${title} on AlphaTrack`}
 	/>
 	<meta
 		property="og:site_name"
-		content="Beatbump"
+		content="AlphaTrack"
 	/>
 	<meta
 		property="og:image"
@@ -38,7 +38,7 @@
 		property="og:url"
 		content={`${$SITE_ORIGIN_URL}/listen?id=${videoId}${playlist ? `&list=${playlist}` : ""}`}
 	/>
-	<title>{title} | Beatbump</title>
+	<title>{title} | AlphaTrack</title>
 </svelte:head>
 <main>
 	<header>

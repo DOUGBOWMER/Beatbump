@@ -110,7 +110,7 @@ function parseContents(
 		const shelf: MusicShelf = { contents: [], header: { title: "" } };
 		const section = contents[len];
 
-		/// PR: https://github.com/snuffyDev/Beatbump/pull/83
+		/// PR: https://github.com/snuffyDev/AlphaTrack/pull/83
 		if (section && section.itemSectionRenderer) {
 			continue;
 		}

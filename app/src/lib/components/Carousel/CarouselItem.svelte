@@ -142,7 +142,7 @@
 						if (!browser) return;
 						const shareData = createShare({
 							type: "SESSION",
-							title: `Join ${groupSession.client.displayName}'s Beatbump Session`,
+							title: `Join ${groupSession.client.displayName}'s AlphaTrack Session`,
 							id: encodeURIComponent(
 								IsoBase64.toBase64(
 									JSON.stringify({
